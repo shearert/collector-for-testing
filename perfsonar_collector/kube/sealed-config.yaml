@@ -1,0 +1,17 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: config
+  namespace: collectors
+spec:
+  encryptedData:
+    config.json: AgBMseDdivcWfGiotUg696nJ8nyINzWmVDrrCGlzQEZW7AABEk48Rlc4K5L5xLKw4kDL00yZuo686+iVEnOAK9pQUicUTBtO8XkF7ZUA14quhN7+ZLAcPtrj2L7IIXK1RTxJJcs8L1sQ8N37acgeVomEIo87ZZpOFVkVZB7upB5J0+Q5D/TuHToAP0rGdaePZ3c5JJrXV85dGPOnfxIhVlXfr958AGMVCKBmF8a0+DrXGTPxNRQbsXCkWSZeqwk+TkcTxMBoipOxpv68USg9BKLdm9PJL+BwC5Qm2NJzNnpKai6HZAYa6Bb1XIaM/ScowmpmJhKN4MnFNJyohhq3rLl3/8TKUQ43tx7xBmAgeMz+KIPlWWX2c3GCRmxZi/vwebbP+SK4MGdFZpm5Q7zsFXegMKbbSJiRC52R6LoGHRXUBbJULZzeXt51h2WdX8ApuDGGSDJ91tQFlIYfXbXWFGDSJhCsaPdpM7xXh7AGYZWPDWFXZgfEiUtKBtfA4gjQoKuu3aPGUH5g0CtGoVGBbCT9qCWoJV/IMEPw3iKODMGKB8lie9kUysuMTqQhIDkD+NonDOB8nwhXRttwpfn+17egq7FrMgRi8pO56bi5z6fY+sakpUEdltIcofK/qh/1hpwQc9JthJZZ/Rc+Ck8at2TuDW/Xr2rbmcQJgmm6+AnC3nBi3EtS6oTlFYM19oT3lQR7mFPZzC4NxJAfbcqQnIb5U34ggZpjmMxfVV5PDKo+lIFm4zSZlurAhLpbZosy4nKLj89LKPFmVmpMp9iaunIUEAmgoq2OgSK3wpcQKp29Lwq3sjYoazSqeLnX9BaXG2LPwHQ7ocXid+nwMsP5Usx3ltGrXlBWpvgihS7IxpSEdnvIDAfpjAoPBIbk+2VtltAiYy9iqg==
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: config
+      namespace: collectors
+    type: Opaque
+
